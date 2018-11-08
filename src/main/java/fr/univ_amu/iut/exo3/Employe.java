@@ -40,7 +40,7 @@ public class Employe {
         "Date d'embauche Employé : " + dateEmbaucheEmploye + "\n" +
         "Base de l'employé : "+ base + "\n" +
         "Nombre d'heures de l'employé : " + nbHeures + "\n"+
-        "Salaire brut: "+ salaireBrut()+ "\n \n";
+        "Salaire brut: "+ salaireBrut()+ "\n" + "Salaire net: "+ salaireNet()+"\n"+"\n";
     }
 
     public double salaireBrut(){
